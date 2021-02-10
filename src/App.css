@@ -63,11 +63,12 @@ body {
     padding: 0px;
     margin-bottom: 20px;
     max-width: 350px;
-    border: none;
+    /* border: none; */
+    background-color: #ffffff0f;
 }
 
 .bg-portfolio {
-    background-color: #010101;
+    /* background-color: #010101; */
 }
 
 .certi-border {
