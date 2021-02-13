@@ -12,9 +12,11 @@ body {
 }
 .certi-container{
     background-color: #ffffff0f;
+    border: 1px solid #ff980038;
+    border-radius: 3px;
 }
 .certi-container .card-text{
-    font-size: 14px;
+    font-size: 13px;
 }
 .certi-container a{
     padding: 4px 10px;
@@ -60,11 +62,12 @@ body {
 }
 
 .portfolio-card {
-    padding: 0px;
+    /* padding: 0px; */
     margin-bottom: 20px;
-    max-width: 350px;
+    /* max-width: 350px; */
     /* border: none; */
     background-color: #ffffff0f;
+    border:1px solid #ff980038;
 }
 
 .bg-portfolio {
@@ -132,13 +135,19 @@ a .fa {
 }
 
 .about-content {
-    padding: 0px;
     font-weight: bold;
-    margin: 0px;
-    width: auto;
     text-align: justify;
-    left: 60%;
-    top: 20%;
+  min-height: 600px;
+  padding-left: 50px;
+}
+.about-content .card-title {
+margin-top: 7em !important;
+}
+#home{
+    background-image: url("../src/images/welcome-background.PNG");
+    background-size: cover;
+    background-position: center;
+
 }
 
 .wel-img {
@@ -221,5 +230,14 @@ a .fa {
 @media (min-width: 768px) {
     .flex-md-equal>* {
         flex: 1;
+    }
+}
+
+@media (max-width: 768px) {
+    .flex-md-equal>* {
+        flex: 1;
+    }
+    .container{
+        width: 85%;
     }
 }

@@ -1,16 +1,22 @@
-import udemyCCP from './images/Capture.png';
-import kanbanPractitioner from './images/Capture3.png';
-import frontEnd from './images/Capture2.png';
-import javascriptAlgo from './images/Capture2.png';
-import webDesign from './images/Capture2.png';
-import astitva from './images/Astitva.png';
-import drumMachine from './images/drum-machine.png';
-import jsCalc from './images/javascript-calculator.png';
-import pomodoro from './images/pomodoro-clock.png';
-import rqg from './images/random_quote_genereator.png';
-import avsar from './images/Avsar.png';
-import wlBg from './images/welcome-background.jpg';
-import skillsImage from './images/Skill-image.jpg';
+import udemyCCP from './images/c-aws.png';
+import kanbanPractitioner from './images/c-tkp.png';
+import frontEnd from './images/c-front-end.png';
+import javascriptAlgo from './images/c-javascript.png';
+import webDesign from './images/c-web.png';
+import astitva from './images/p-astistva.jpg';
+import drumMachine from './images/p-drum-machine.png';
+import jsCalc from './images/p-calculator.png';
+import pomodoro from './images/p-pomodoro-clock.png';
+import rqg from './images/p-quote.png';
+import avsar from './images/p-avsar.jpg';
+import rock from './images/p-rock.jpg';
+import table from './images/p-table.jpg';
+import value from './images/p-value.jpg';
+import pform from './images/p-form.jpg';
+import chart from './images/p-chart-2.jpg';
+import bar_chart from './images/p-bar-chart.jpg';
+import wlBg from './images/welcome-background.PNG';
+// import skillsImage from './images/Skill-image.jpg';
 import './App.css';
 
 function App() {
@@ -28,12 +34,13 @@ function App() {
         </nav>
       </header>
 
-      <div id='home'>
+      <div id='home' className=''>
         <div className="container">
-          <div className="card bg-color">
-            <img src={wlBg} className="card-img wel-img" alt="welcome-image" />
-            <div className="card-img-overlay about-content">
-              <h3 className="card-title">Vaibhav Parsana</h3>
+          <div className=" row bg-color">
+          <div className="col-md-6">
+            </div>
+            <div className="about-content col-md-6">
+              <h3 className="card-title mt-5">Vaibhav Parsana</h3>
               <div><i className="fa fa-envelope mr-3"></i>parsana7v@gmail.com</div>
               <div><i className="fa fa-phone mr-3"></i>+1 905 208 6645</div>
               <div><i className="fa fa-map-marker mr-3"></i>Brampton, Ontario, Canada</div>
@@ -46,9 +53,9 @@ function App() {
         </div>
         <Divider space="70" />
       </div>
-      <div id='about-me'>
+      <div id='about-me'  className=''>
         <div className="container">
-          <div className="row justify-content-around">
+          <div className=" row justify-content-around">
             <div className="col-md-4">
               <h4 className='section-title'><i className="fa fa-user icon-color mr-3"></i>About Me</h4>
               <p className="card-text">I am a self-motivated individual with about two years of learning experience at a coding Bootcamp and six years experience in electronics and communications seeking a challenging role as front end Developer in an organization that values my qualifications and my ability to deliver quality products.</p>
@@ -80,7 +87,7 @@ function App() {
       </div>
 
 
-      <div id='skills'>
+      <div id='skills'  className=''>
 
         <div className="container">
           <SectionHeader section_title='My Skills' icon_name="fa fa-tool" />
@@ -108,43 +115,47 @@ function App() {
         <Divider space="70" />
       </div>
 
-      <div id='achievement'>
+      <div id='achievement'  className=''>
         <SectionHeader section_title='My Achievements' icon_name="fa fa-trophy" />
         <div className="container">
           <div className='row'>
             <AchievementContent achievementImage={udemyCCP} achievementImageAlt='udemy-AWS_CCP' achievementTitle='AWS Certified Cloud Practitioner' achievementDesc='' achievementCerti='https://www.udemy.com/certificate/UC-e9e6a62a-4a32-4055-a820-37deb675db62/' />
             <AchievementContent achievementImage={kanbanPractitioner} achievementImageAlt='Kanban_Practitioner' achievementTitle='Team Kanban Practitioner' achievementDesc='Learned to how organize work, improve transparency, identify bottlenecks, and enhance team collaboration' achievementCerti='https://edu.kanban.university/users/vaibhav-parsana'/>
-          </div>
-          <div className='row'>
+         
             <AchievementContent achievementImage={webDesign} achievementImageAlt='Responsive_Web_Design' achievementTitle='Responsive Web Design' achievementDesc='HTML, CSS, Responsive Web Design, Applied Accessibility' achievementCerti="https://freecodecamp.org/certification/vaibhavparsana/responsive-web-design" />
-            <AchievementContent achievementImage={javascriptAlgo} achievementImageAlt='JavaScript_Algorithms' achievementTitle='JavaScript Algorithms and Data Structure' achievementDesc='ES6, Object-Oriented, and Functional Programming Debugging' achievementCerti='https://www.freecodecamp.org/certification/vaibhavparsana/javascript-algorithms-and-data-structures'/>
-          </div>
-          <div className='row'>
+            <AchievementContent achievementImage={javascriptAlgo} achievementImageAlt='JavaScript_Algorithms' achievementTitle='JavaScript Algorithms and Data Structure' achievementDesc='ES6, Object-Oriented, Functional Programming, Debugging' achievementCerti='https://www.freecodecamp.org/certification/vaibhavparsana/javascript-algorithms-and-data-structures'/>
+         
             <AchievementContent achievementImage={frontEnd} achievementImageAlt='Front_End_Libraries' achievementTitle='Front End Libraries' achievementDesc='Bootstrap, Jquery, Sass, React, Redux' achievementCerti='https://www.freecodecamp.org/certification/vaibhavparsana/front-end-libraries'/>
-            <AchievementContent achievementImage={frontEnd} achievementImageAlt='Front_End_Libraries' achievementTitle='Front End Libraries' achievementDesc='Bootstrap, Jquery, Sass, React, Redux' />
           </div>
         </div>
         <Divider space="70" />
       </div>
 
-      <div id='portfolio'>
+      <div id='portfolio'  className=''>
         <SectionHeader section_title='My Portfolio' icon_name="fa fa-briefcase"/>
         <div className="container ">
           <div className='row justify-content-around'>
-            <PortfolioContent portfolioImage={rqg} portfolioImageAlt='Random_quote_genereator' portfolioTitle='Random Quote Generator' portfolioDesc='' portfolioLink='' />
-            <PortfolioContent portfolioImage={astitva} portfolioImageAlt='Astitva' portfolioTitle='Astitva' portfolioDesc='' portfolioLink='' />
-            <PortfolioContent portfolioImage={avsar} portfolioImageAlt='Avsar' portfolioTitle='Avsar' portfolioDesc='' portfolioLink='' />
-          </div>
-          <div className='row justify-content-around'>
-            <PortfolioContent portfolioImage={jsCalc} portfolioImageAlt='Javascript-calculator' portfolioTitle='Calculator' portfolioDesc='' portfolioLink='' />
-            <PortfolioContent portfolioImage={pomodoro} portfolioImageAlt='Pomodoro-clock' portfolioTitle='Pomodoro Clock' portfolioDesc='' portfolioLink='' />
-            <PortfolioContent portfolioImage={drumMachine} portfolioImageAlt='Drum-machine' portfolioTitle='Drum machine' portfolioDesc='' portfolioLink='' />
+            <PortfolioContent portfolioImage={rqg} portfolioImageAlt='Random_quote_genereator' portfolioTitle='Random Quote Generator' portfolioDesc='React Application' portfolioLink='https://master.d8c9xlg665lm7.amplifyapp.com/' />
+            <PortfolioContent portfolioImage={jsCalc} portfolioImageAlt='Javascript-calculator' portfolioTitle='Calculator' portfolioDesc='React Application' portfolioLink='https://master.dflli073n6woh.amplifyapp.com/' />
+            <PortfolioContent portfolioImage={pomodoro} portfolioImageAlt='Pomodoro-clock' portfolioTitle='Pomodoro Clock' portfolioDesc='React Application' portfolioLink='https://master.d24nfqk1xjrn42.amplifyapp.com/' />
+         
+           <PortfolioContent portfolioImage={astitva} portfolioImageAlt='Astitva' portfolioTitle='Astitva' portfolioDesc='Static HTML/Javascript Website' portfolioLink='http://vaibhav-parsana-portfolio-sites.s3-website-us-east-1.amazonaws.com/astitva/' />
+            <PortfolioContent portfolioImage={avsar} portfolioImageAlt='Avsar' portfolioTitle='Avsar' portfolioDesc='Static HTML/Javascript Website' portfolioLink='http://vaibhav-parsana-portfolio-sites.s3-website-us-east-1.amazonaws.com/avsar/' />
+            <PortfolioContent portfolioImage={drumMachine} portfolioImageAlt='Drum-machine' portfolioTitle='Drum machine' portfolioDesc='React Application' portfolioLink='https://master.ddai3eze139cs.amplifyapp.com/' />
+         
+            <PortfolioContent portfolioImage={rock} portfolioImageAlt='rock-paper-scissor' portfolioTitle='Rock Paper Scissor Game' portfolioDesc='Static HTML/Javascript Website' portfolioLink='http://vaibhav-parsana-portfolio-sites.s3-website-us-east-1.amazonaws.com/rock-paper-scissor/' />
+            <PortfolioContent portfolioImage={value} portfolioImageAlt='value-conversion' portfolioTitle='Value Conversion' portfolioDesc='Static HTML/Javascript Website' portfolioLink='http://vaibhav-parsana-portfolio-sites.s3-website-us-east-1.amazonaws.com/value-conversion/' />
+            <PortfolioContent portfolioImage={table} portfolioImageAlt='json-data-display' portfolioTitle='Json Data Display' portfolioDesc='Static HTML/Javascript Website' portfolioLink='http://vaibhav-parsana-portfolio-sites.s3-website-us-east-1.amazonaws.com/json-data-display/' />
+       
+            <PortfolioContent portfolioImage={pform} portfolioImageAlt='Rental-application' portfolioTitle='Rental Application' portfolioDesc='Static HTML/Javascript Website' portfolioLink='http://vaibhav-parsana-portfolio-sites.s3-website-us-east-1.amazonaws.com/Rental-application/' />
+            <PortfolioContent portfolioImage={bar_chart} portfolioImageAlt='Bar Chart' portfolioTitle='Bar Chart' portfolioDesc='Static HTML/Javascript Website' portfolioLink='http://vaibhav-parsana-portfolio-sites.s3-website-us-east-1.amazonaws.com/bar-chart/' />
+            <PortfolioContent portfolioImage={chart} portfolioImageAlt='Scatterplot Graph' portfolioTitle='Scatterplot Graph' portfolioDesc='Static HTML/Javascript Website' portfolioLink='http://vaibhav-parsana-portfolio-sites.s3-website-us-east-1.amazonaws.com/scatterplot-graph/' />
           </div>
         </div>
         <Divider space="70" />
       </div>
 
-      <div id='experience'>
+      <div id='experience'  className=''>
         <SectionHeader section_title='My Experience' icon_name='fa fa-user-tie' />
         <div className="container">
           <div className="row experience-content">
@@ -171,7 +182,7 @@ function App() {
         <Divider space="70" />
       </div>
 
-      <div id='education'>
+      <div id='education'  className=''>
         <SectionHeader section_title='My Education' icon_name="fa fa-user-graduate" />
         <div className="container">
           <EducationContent certificate="Ontario College Diploma" majors="Computer Systems Technician – Software Engineering" collegename="Sheridan College" year="June 2019 - Aug 2020" />
@@ -196,14 +207,14 @@ function ProgressBar(props) {
 }
 
 function SectionHeader(props) {
-  return <div className='row'><div className="container">
+  return <div className=''><div className="container">
     <h4 className='section-title text-center'>{props.section_title}</h4>
   </div>
   </div>
 }
 
 function AchievementContent(props) {
-  return <div className="col-md-6 mb-3" >
+  return <div className="col-md-6 my-2" >
     <div className="row g-0 certi-container">
       <div className="col-md-4 certi-border mx-auto text-center">
         <img className='img-fluid ' src={props.achievementImage} alt={props.achievementImageAlt} style={{ Height: 100, Width: 100 }} />
@@ -221,12 +232,14 @@ function AchievementContent(props) {
 }
 
 function PortfolioContent(props) {
-  return <div className="col card portfolio-card " style={{ width: 18 + 'rem' }}>
+  return <div className="col-md-4 my-2">
+    <div className="card portfolio-card">
     <img src={props.portfolioImage} className="card-img-top" alt={props.portfolioImageAlt} />
     <div className="card-body bg-portfolio">
       <h5 className="card-title">{props.portfolioTitle}</h5>
       <p className="card-text">{props.portfolioDesc}</p>
       <a href={props.portfolioLink} className="btn btn-primary">View</a>
+    </div>
     </div>
   </div>
 }
