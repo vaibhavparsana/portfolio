@@ -135,21 +135,21 @@ function App() {
         <SectionHeader section_title='My Portfolio' icon_name="fa fa-briefcase"/>
         <div className="container ">
           <div className='row justify-content-around'>
-            <PortfolioContent portfolioImage={rqg} portfolioImageAlt='Random_quote_genereator' portfolioTitle='Random Quote Generator' portfolioDesc='React Application' portfolioLink='https://master.d8c9xlg665lm7.amplifyapp.com/' />
-            <PortfolioContent portfolioImage={jsCalc} portfolioImageAlt='Javascript-calculator' portfolioTitle='Calculator' portfolioDesc='React Application' portfolioLink='https://master.dflli073n6woh.amplifyapp.com/' />
-            <PortfolioContent portfolioImage={pomodoro} portfolioImageAlt='Pomodoro-clock' portfolioTitle='Pomodoro Clock' portfolioDesc='React Application' portfolioLink='https://master.d24nfqk1xjrn42.amplifyapp.com/' />
+            <PortfolioContent portfolioImage={rqg} portfolioImageAlt='Random_quote_genereator' portfolioTitle='Random Quote Generator' portfolioDesc='A React Application to generate random quotes. It is a one of the project from the front end libraries certification of freecodecamp.' portfolioLink='https://master.d8c9xlg665lm7.amplifyapp.com/' />
+            <PortfolioContent portfolioImage={jsCalc} portfolioImageAlt='Javascript-calculator' portfolioTitle='Calculator' portfolioDesc='This is a react application for calculator. It is a one of the project from the front end libraries certification of freecodecamp.' portfolioLink='https://master.dflli073n6woh.amplifyapp.com/' />
+            <PortfolioContent portfolioImage={pomodoro} portfolioImageAlt='Pomodoro-clock' portfolioTitle='Pomodoro Clock' portfolioDesc='A Pomodoro Clock is a time management clock. This is a react application for pomodoro clock. It is a one of the project from the front end libraries certification of freecodecamp.' portfolioLink='https://master.d24nfqk1xjrn42.amplifyapp.com/' />
          
-           <PortfolioContent portfolioImage={astitva} portfolioImageAlt='Astitva' portfolioTitle='Astitva' portfolioDesc='Static HTML/Javascript Website' portfolioLink='http://vaibhav-parsana-portfolio-sites.s3-website-us-east-1.amazonaws.com/astitva/' />
-            <PortfolioContent portfolioImage={avsar} portfolioImageAlt='Avsar' portfolioTitle='Avsar' portfolioDesc='Static HTML/Javascript Website' portfolioLink='http://vaibhav-parsana-portfolio-sites.s3-website-us-east-1.amazonaws.com/avsar/' />
-            <PortfolioContent portfolioImage={drumMachine} portfolioImageAlt='Drum-machine' portfolioTitle='Drum machine' portfolioDesc='React Application' portfolioLink='https://master.ddai3eze139cs.amplifyapp.com/' />
+            <PortfolioContent portfolioImage={astitva} portfolioImageAlt='Astitva' portfolioTitle='Astitva' portfolioDesc='The Astitva is a organization who works to help children. This is a Static HTML/Javascript Website.' portfolioLink='http://vaibhav-parsana-portfolio-sites.s3-website-us-east-1.amazonaws.com/astitva/' />
+            <PortfolioContent portfolioImage={avsar} portfolioImageAlt='Avsar' portfolioTitle='Avsar' portfolioDesc='The Avsar is a website for purchase different watches/clocks. This is a Static HTML/Javascript Website.' portfolioLink='http://vaibhav-parsana-portfolio-sites.s3-website-us-east-1.amazonaws.com/avsar/' />
+            <PortfolioContent portfolioImage={drumMachine} portfolioImageAlt='Drum-machine' portfolioTitle='Drum machine' portfolioDesc='This is a React Application fotr drum machine. It has different keys which will be triggered by user in order to play music. It is a one of the project from the front end libraries certification of freecodecamp.' portfolioLink='https://master.ddai3eze139cs.amplifyapp.com/' />
          
-            <PortfolioContent portfolioImage={rock} portfolioImageAlt='rock-paper-scissor' portfolioTitle='Rock Paper Scissor Game' portfolioDesc='Static HTML/Javascript Website' portfolioLink='http://vaibhav-parsana-portfolio-sites.s3-website-us-east-1.amazonaws.com/rock-paper-scissor/' />
-            <PortfolioContent portfolioImage={value} portfolioImageAlt='value-conversion' portfolioTitle='Value Conversion' portfolioDesc='Static HTML/Javascript Website' portfolioLink='http://vaibhav-parsana-portfolio-sites.s3-website-us-east-1.amazonaws.com/value-conversion/' />
-            <PortfolioContent portfolioImage={table} portfolioImageAlt='json-data-display' portfolioTitle='Json Data Display' portfolioDesc='Static HTML/Javascript Website' portfolioLink='http://vaibhav-parsana-portfolio-sites.s3-website-us-east-1.amazonaws.com/json-data-display/' />
+            <PortfolioContent portfolioImage={rock} portfolioImageAlt='rock-paper-scissor' portfolioTitle='Rock Paper Scissor Game' portfolioDesc='This is a Static HTML/Javascript Website to play game rock paper and scissor with computer. It taks value ffrom users and display result using prompt box.' portfolioLink='http://vaibhav-parsana-portfolio-sites.s3-website-us-east-1.amazonaws.com/rock-paper-scissor/' />
+            <PortfolioContent portfolioImage={value} portfolioImageAlt='value-conversion' portfolioTitle='Value Conversion' portfolioDesc='This a Static HTML/Javascript Website to convert value into different measurement entities for example celsius, fahrenhites, feet, meters, inches, centimeters, pounds and kilograms.' portfolioLink='http://vaibhav-parsana-portfolio-sites.s3-website-us-east-1.amazonaws.com/value-conversion/' />
+            <PortfolioContent portfolioImage={table} portfolioImageAlt='json-data-display' portfolioTitle='Json Data Display' portfolioDesc='This is a Static HTML/Javascript Webpage to display data from the json file into to table form using jQuery.' portfolioLink='http://vaibhav-parsana-portfolio-sites.s3-website-us-east-1.amazonaws.com/json-data-display/' />
        
-            <PortfolioContent portfolioImage={pform} portfolioImageAlt='Rental-application' portfolioTitle='Rental Application' portfolioDesc='Static HTML/Javascript Website' portfolioLink='http://vaibhav-parsana-portfolio-sites.s3-website-us-east-1.amazonaws.com/Rental-application/' />
-            <PortfolioContent portfolioImage={bar_chart} portfolioImageAlt='Bar Chart' portfolioTitle='Bar Chart' portfolioDesc='Static HTML/Javascript Website' portfolioLink='http://vaibhav-parsana-portfolio-sites.s3-website-us-east-1.amazonaws.com/bar-chart/' />
-            <PortfolioContent portfolioImage={chart} portfolioImageAlt='Scatterplot Graph' portfolioTitle='Scatterplot Graph' portfolioDesc='Static HTML/Javascript Website' portfolioLink='http://vaibhav-parsana-portfolio-sites.s3-website-us-east-1.amazonaws.com/scatterplot-graph/' />
+            <PortfolioContent portfolioImage={pform} portfolioImageAlt='Rental-application' portfolioTitle='Rental Application' portfolioDesc='This is a Static HTML/Javascript Webpage for rental application form.' portfolioLink='http://vaibhav-parsana-portfolio-sites.s3-website-us-east-1.amazonaws.com/Rental-application/' />
+            <PortfolioContent portfolioImage={bar_chart} portfolioImageAlt='Bar Chart' portfolioTitle='Bar Chart' portfolioDesc='This is a Static HTML/Javascript Webpage to generate bar chart using Data Visualication(D3). It is a one of the project from the data visualization certification of freecodecamp.' portfolioLink='http://vaibhav-parsana-portfolio-sites.s3-website-us-east-1.amazonaws.com/bar-chart/' />
+            <PortfolioContent portfolioImage={chart} portfolioImageAlt='Scatterplot Graph' portfolioTitle='Scatterplot Graph' portfolioDesc='This is a Static HTML/Javascript Webpage to generate Scatterplot Graph using Data Visualication(D3). It is a one of the project from the data visualization certification of freecodecamp.' portfolioLink='http://vaibhav-parsana-portfolio-sites.s3-website-us-east-1.amazonaws.com/scatterplot-graph/' />
           </div>
         </div>
         <Divider space="70" />
@@ -207,8 +207,9 @@ function ProgressBar(props) {
 }
 
 function SectionHeader(props) {
-  return <div className=''><div className="container">
+  return <div className='container'><div className="row"><div className="col-md-12">
     <h4 className='section-title text-center'>{props.section_title}</h4>
+  </div>
   </div>
   </div>
 }
@@ -238,7 +239,7 @@ function PortfolioContent(props) {
     <div className="card-body bg-portfolio">
       <h5 className="card-title">{props.portfolioTitle}</h5>
       <p className="card-text">{props.portfolioDesc}</p>
-      <a href={props.portfolioLink} className="btn btn-primary">View</a>
+      <a href={props.portfolioLink} target="_blank" className="btn btn-primary">View</a>
     </div>
     </div>
   </div>
@@ -249,7 +250,10 @@ function EducationContent(props) {
   return <div>
     <div className="row experience-content">
       <div className="left-content col-md-3">
+      
         <p className="mt-1">{props.year}</p>
+       
+      
 
       </div>
 
