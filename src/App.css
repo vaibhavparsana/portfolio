@@ -271,6 +271,9 @@ margin-top: 7em !important;
 .experience-content{
      border:1px solid #ff980038;
 }
+.section-title{
+    text-align: center;
+}
 }
 .badge-secondary{
     background-color: #ff980038;
