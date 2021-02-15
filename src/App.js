@@ -94,8 +94,8 @@ function App() {
           <div className='row'>
             <div className='col-md-1'></div>
             <div className='col-md-4'>
-              <ProgressBar skill='Python' percentage='70' />
-              <ProgressBar skill='Nodejs' percentage='85' />
+              <ProgressBar skill='Python' percentage='75' />
+              <ProgressBar skill='Nodejs' percentage='70' />
               <ProgressBar skill='React' percentage='80' />
               <ProgressBar skill='Java' percentage='75' />
               <ProgressBar skill='C' percentage='80' />
@@ -104,7 +104,7 @@ function App() {
               <ProgressBar skill='AWS' percentage='60' />
               <ProgressBar skill='JavaScript/jQuery' percentage='85' />
               <ProgressBar skill='HTML/CSS/BootStrap' percentage='90' />
-              <ProgressBar skill='Mongodb' percentage='90' />
+              <ProgressBar skill='Mongodb' percentage='75' />
               <ProgressBar skill='SQL' percentage='80' />
               <div className='col-md-1'></div>
 
