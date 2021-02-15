@@ -159,7 +159,7 @@ function App() {
         <SectionHeader section_title='My Experience' icon_name='fa fa-building-o' />
         <div className="container">
           <div className="row experience-content">
-            <div className="left-content col-md-3">
+            <div className="left-content col-md-4">
               <p className="mt-1">June 2017 - July 2018</p>
 
             </div>
@@ -169,7 +169,7 @@ function App() {
               <p className="vert-line text-center"></p>
 
             </div>
-            <div className="right-content col-md-8">
+            <div className="right-content col-md-7">
               <h4>Assistant Engineer at Aaditya Techtronics Pvt Ltd</h4>
               <p>Research and Development Department</p>
               <ul><li>Analyzed requirements and prepared the design for research products.</li>
@@ -251,7 +251,7 @@ function PortfolioContent(props) {
 function EducationContent(props) {
   return <div>
     <div className="row experience-content">
-      <div className="left-content col-md-3">
+      <div className="left-content col-md-4">
       
         <p className="mt-1">{props.year}</p>
        
@@ -264,7 +264,7 @@ function EducationContent(props) {
         <p className="vert-line text-center"></p>
 
       </div>
-      <div className="right-content col-md-8">
+      <div className="right-content col-md-7">
         <h4>{props.certificate}</h4>
         <p>{props.majors}</p>
         <p>{props.collegename}</p>
