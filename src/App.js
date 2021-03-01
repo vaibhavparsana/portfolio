@@ -16,8 +16,7 @@ import pform from './images/p-form.jpg';
 import chart from './images/p-chart-2.jpg';
 import bar_chart from './images/p-bar-chart.jpg';
 import awsCCP from './images/awsCCP.jpeg';
-// import wlBg from './images/welcome-background.jpg';
-// import skillsImage from './images/Skill-image.jpg';
+import awsCCPCert from './images/AWS-Certified-Cloud-Practitioner-certificate.pdf';
 import './App.css';
 
 function App() {
@@ -120,7 +119,7 @@ function App() {
         <SectionHeader section_title='My Achievements' icon_name="fa fa-trophy" />
         <div className="container">
           <div className='row'>
-            <AchievementContent achievementImage={awsCCP} achievementImageAlt='AWS_CCP' achievementTitle='AWS Certified Cloud Practitioner' achievementDesc='Learned basics of AWS Cloud architectural principles, security aspects, billing, account management, pricing models and core characteristics of deploying and operating in the AWS Cloud' achievementCerti='https://aw.certmetrics.com/amazon/public/verification.aspx' />
+            <AchievementContent achievementImage={awsCCP} achievementImageAlt='AWS_CCP' achievementTitle='AWS Certified Cloud Practitioner' achievementDesc='Learned basics of AWS Cloud architectural principles, security aspects, billing, account management, pricing models and core characteristics of deploying and operating in the AWS Cloud' achievementCerti={awsCCPCert} />
             <AchievementContent achievementImage={udemyCCP} achievementImageAlt='udemy-AWS_CCP' achievementTitle='AWS Certified Cloud Practitioner' achievementDesc='Learned basics of AWS Cloud architectural principles, security aspects, billing, account management, pricing models and core characteristics of deploying and operating in the AWS Cloud' achievementCerti='https://www.udemy.com/certificate/UC-e9e6a62a-4a32-4055-a820-37deb675db62/' />
             <AchievementContent achievementImage={kanbanPractitioner} achievementImageAlt='Kanban_Practitioner' achievementTitle='Team Kanban Practitioner' achievementDesc='Learned how to organize your work, improve transparency, identify bottlenecks, visualize workflow, improve communication, and enhance team collaboration' achievementCerti='https://edu.kanban.university/users/vaibhav-parsana' />
 
