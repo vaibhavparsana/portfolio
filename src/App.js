@@ -19,6 +19,8 @@ import awsCCP from './images/awsCCP.jpeg';
 import csservices from './images/Carriersafetyservices.png'
 import awsCCPCert from './images/AWS-Certified-Cloud-Practitioner-certificate.pdf';
 import shopify from './images/Shopify_Challenge.png';
+import hatchway from './images/hatchway.png';
+
 import './App.css';
 
 function App() {
@@ -140,6 +142,7 @@ function App() {
           <div className='row justify-content-around'>
             <PortfolioContent portfolioImage={csservices} portfolioImageAlt='csservices' portfolioTitle='Carrier Safety Services' portfolioDesc='A website which provides a trucking safety services.' category='Client Project' portfolioLink='https://carriersafetyservices.com/' />
             <PortfolioContent portfolioImage={shopify} portfolioImageAlt='front-end-challenge' portfolioTitle='API Project' portfolioDesc='A webpage that can pull images, and allow the user to “like” and “unlike” their favourite images.' category='Shopify front end challenge' portfolioLink='https://master.d3rgyje2pc7ul7.amplifyapp.com/' />
+            <PortfolioContent portfolioImage={hatchway} portfolioImageAlt='hatch-way-front-end-assessment' portfolioTitle='Hatchway assessment Project' portfolioDesc='Access the students data from API and display according to requirement with search by name and tag features.' portfolioLink='https://main.d1zza598wt88g8.amplifyapp.com/' />
 
             <PortfolioContent portfolioImage={rqg} portfolioImageAlt='Random_quote_genereator' portfolioTitle='Random Quote Generator' portfolioDesc='A React Application to generate random quotes.' category='Freecodecamp Project' portfolioLink='https://master.d8c9xlg665lm7.amplifyapp.com/' />
             <PortfolioContent portfolioImage={jsCalc} portfolioImageAlt='Javascript-calculator' portfolioTitle='Calculator' portfolioDesc='This is a react application for calculator.' category='Freecodecamp Project' portfolioLink='https://master.dflli073n6woh.amplifyapp.com/' />
