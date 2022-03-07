@@ -142,9 +142,10 @@ function App() {
         <div className="container ">
           <div className='row justify-content-around'>
             <PortfolioContent portfolioImage={csservices} portfolioImageAlt='csservices' portfolioTitle='Carrier Safety Services' portfolioDesc='A website which provides a trucking safety services.' category='Client Project' portfolioLink='https://carriersafetyservices.com/' />
+            <PortfolioContent portfolioImage={petClinic} portfolioImageAlt='pet-clinic' portfolioTitle='Clinic Appoinment system' portfolioDesc='A webpage for clinic appoinment system. It has a functionality to add new appoinment or delete exising appoinment along with search and sort feature.' category='LinkedIn Learning' portfolioLink='https://main.d2reiha7i69l0d.amplifyapp.com/' />
+
             <PortfolioContent portfolioImage={shopify} portfolioImageAlt='front-end-challenge' portfolioTitle='API Project' portfolioDesc='A webpage that can pull images, and allow the user to “like” and “unlike” their favourite images.' category='Shopify front end challenge' portfolioLink='https://master.d3rgyje2pc7ul7.amplifyapp.com/' />
             <PortfolioContent portfolioImage={hatchway} portfolioImageAlt='hatch-way-front-end-assessment' portfolioTitle='Hatchway assessment Project' portfolioDesc='Access the students data from API and display according to requirement with search by name and tag features.' category='Hatchway assessment' portfolioLink='https://main.d1zza598wt88g8.amplifyapp.com/' />
-            <PortfolioContent portfolioImage={petClinic} portfolioImageAlt='pet-clinic' portfolioTitle='Clinic Appoinments system' portfolioDesc='A webpage for clinic appoinment system. It has a functionality to add new appoinment or delete exising appoinment along with search and sort feature.' category='LinkedIn Learning' portfolioLink='https://main.d2reiha7i69l0d.amplifyapp.com/' />
             
             {/*  <PortfolioContent portfolioImage={slack} portfolioImageAlt='slack-clone-website' portfolioTitle='Clone Website' portfolioDesc='Cloning a webpage of Slack' category='Personal Project' portfolioLink='/#' /> */}
 
