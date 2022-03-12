@@ -19,9 +19,9 @@ import awsCCP from './images/awsCCP.jpeg';
 import csservices from './images/Carriersafetyservices.png'
 import awsCCPCert from './images/AWS-Certified-Cloud-Practitioner-certificate.pdf';
 import shopify from './images/Shopify_Challenge.png';
-import hatchway from './images/hatchway.jpg';
+import hatchway from './images/hatchway.jpeg';
 import slack from './images/slack.png';
-import petClinic from './images/petClinic.jpg';
+import petClinic from './images/petClinic.jpeg';
 import './App.css';
 
 function App() {
